@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:text="HELP"
+        android:layout_gravity="left|center"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="0dp"
+        android:layout_weight="50"
+        android:layout_height="wrap_content"
+        android:text="RESTART"
+        android:layout_gravity="center|right"
+        android:layout_alignParentRight="true" />
+
+</LinearLayout>

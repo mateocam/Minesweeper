@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Minesweeper</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rstrt_msg">Game has restarted!</string>
+    <string name="try_mode_txt">"\"Try a field mode:\" "</string>
+    <string name="try_help1">\n\t if you hit a mine, the game ends</string>
+    <string name="try_help2">\n\t numbers indicate how many mines are around that square</string>
+    <string name="flag_mode_txt">\n\n\"Place a flag mode:\"</string>
+    <string name="flag_help1">\n\t if you flag and there is no mine, you lose</string>
+    <string name="win_help1">\n\nTO WIN, you must flag all mines</string>
+    <string name="won_msg">YOU WON !!\npress restart to start a new game</string>
+    <string name="lost_msg">YOU LOST :(\npress restart to start a new game</string>
+</resources>
